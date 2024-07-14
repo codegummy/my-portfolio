@@ -14,6 +14,10 @@ router.get("/coding", (req,res) => {
   res.render("coding")
  
 })
+router.get("/contact", (req,res) => {
+  res.render("contact")
+ 
+})
 router.get("/coding-project-one", (req,res) => {
   const locals = {
     title: "Flutter Note App"
